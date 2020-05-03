@@ -163,7 +163,7 @@ class _DashBoardState extends State<DashBoard> {
                           padding: const EdgeInsets.all(10.0),
                           child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children: <Widget>[Text('Dead Today'),Icon(Icons.cancel, color: Colors.red,),Text(state.covid.countries[index].newDeaths.toString())],),
                         ),
-                                                Padding(
+                        Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children: <Widget>[Text('Confirmed Total'),Icon(Icons.check, color: Colors.blue,),Text(state.covid.countries[index].totalConfirmed.toString())],),
                         ),
